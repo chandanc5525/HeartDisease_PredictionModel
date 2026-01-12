@@ -1,0 +1,11 @@
+class HeartDiseaseInput(BaseModel):
+    Age: int
+    Sex: int
+    cp: int
+    trestbps: int
+    chol: int
+    fbs: int
+    restecg: int
+    thalach: int
+    exang: int
+    oldpeak: float

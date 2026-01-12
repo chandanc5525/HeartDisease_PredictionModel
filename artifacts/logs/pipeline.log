@@ -1,0 +1,42 @@
+2026-01-11 23:08:04,726 - INFO - Reading raw dataset
+2026-01-11 23:08:04,746 - INFO - Processed data saved
+2026-01-12 04:47:46,510 - src.data_ingestion - INFO - Reading raw dataset
+2026-01-12 04:47:46,521 - src.data_ingestion - INFO - Processed data saved
+2026-01-12 04:47:46,521 - src.preprocessing - INFO - Starting preprocessing
+2026-01-12 04:47:46,521 - src.preprocessing - INFO - Numerical columns: ['Age', 'RestingBP', 'Cholesterol', 'FastingBS', 'MaxHR', 'Oldpeak']
+2026-01-12 04:47:46,521 - src.preprocessing - INFO - Categorical columns: ['Sex', 'ChestPainType', 'RestingECG', 'ExerciseAngina', 'ST_Slope']
+2026-01-12 04:47:46,870 - src.preprocessing - INFO - Preprocessing completed successfully
+2026-01-12 04:55:07,251 - src.data_ingestion - INFO - Reading raw dataset
+2026-01-12 04:55:07,253 - src.data_ingestion - INFO - Processed data saved
+2026-01-12 04:55:07,253 - src.preprocessing - INFO - Starting preprocessing
+2026-01-12 04:55:07,271 - src.preprocessing - INFO - Numerical columns: ['Age', 'RestingBP', 'Cholesterol', 'FastingBS', 'MaxHR', 'Oldpeak']
+2026-01-12 04:55:07,271 - src.preprocessing - INFO - Categorical columns: ['Sex', 'ChestPainType', 'RestingECG', 'ExerciseAngina', 'ST_Slope']
+2026-01-12 04:55:07,348 - src.preprocessing - INFO - Preprocessing completed successfully
+2026-01-12 05:01:02,358 - __main__ - INFO - Training pipeline started
+2026-01-12 05:03:28,341 - __main__ - INFO - Training pipeline started
+2026-01-12 05:03:28,341 - src.data_ingestion - INFO - Reading data from data\raw\heart.csv
+2026-01-12 05:03:28,357 - src.data_ingestion - INFO - Data loaded successfully with shape (918, 12)
+2026-01-12 05:03:28,357 - src.preprocessing - INFO - Starting preprocessing step
+2026-01-12 05:03:28,728 - src.preprocessing - INFO - Preprocessing completed
+2026-01-12 05:03:28,728 - src.model_builder - INFO - Training model and building full pipeline
+2026-01-12 05:05:25,899 - __main__ - INFO - Training pipeline started
+2026-01-12 05:05:25,905 - src.data_ingestion - INFO - Reading data from data\raw\heart.csv
+2026-01-12 05:05:25,914 - src.data_ingestion - INFO - Data loaded successfully with shape (918, 12)
+2026-01-12 05:05:25,914 - src.preprocessing - INFO - Preparing data and preprocessing objects
+2026-01-12 05:05:25,919 - src.preprocessing - INFO - Data split completed
+2026-01-12 05:05:25,919 - src.model_builder - INFO - Building full ML pipeline
+2026-01-12 05:05:25,919 - src.model_builder - INFO - Applying SMOTE on training data
+2026-01-12 05:05:27,330 - src.model_builder - INFO - Pipeline saved at artifacts\models\pipeline.pkl
+2026-01-12 05:05:27,330 - src.model_builder - INFO - Validation accuracy: 0.8641304347826086
+2026-01-12 05:05:27,330 - __main__ - INFO - Training pipeline completed successfully
+2026-01-12 05:16:24,160 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-01-12 05:16:24,160 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2026-01-12 05:16:24,604 - api.model_builder - INFO - Loading ML pipeline artifact
+2026-01-12 05:16:59,000 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-01-12 05:16:59,000 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2026-01-12 05:16:59,235 - api.model_builder - INFO - Loading ML pipeline artifact
+2026-01-12 05:17:30,965 - api.predict - INFO - Running inference
+2026-01-12 05:17:35,210 - api.predict - INFO - Running inference
+2026-01-12 05:27:13,581 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-01-12 05:27:13,581 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2026-01-12 05:27:13,819 - api.model_builder - INFO - Loading ML pipeline artifact

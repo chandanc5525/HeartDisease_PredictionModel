@@ -1,0 +1,106 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6e6; /* light heart-themed background */
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background: #c0392b;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+header .author {
+    font-size: 1em;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Guidelines box */
+.guidelines {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.guidelines h2 {
+    color: #c0392b;
+}
+
+/* Form box */
+.form-box {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 6px;
+    margin-top: 4px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e74c3c;
+}
+
+/* Result box */
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    background: #fde2e2;
+    border-left: 6px solid #c0392b;
+    border-radius: 6px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #c0392b;
+    color: white;
+    margin-top: 20px;
+}

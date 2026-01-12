@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/HeartDisease_PredictionModel/mlruns/544073101510172209/ddc02dd60579440a9f9fec455e7ddc75/artifacts
+end_time: 1768173999477
+entry_point_name: ''
+experiment_id: '544073101510172209'
+lifecycle_stage: active
+run_id: ddc02dd60579440a9f9fec455e7ddc75
+run_name: stylish-whale-210
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768173908759
+status: 3
+tags: []
+user_id: CHANDAN
